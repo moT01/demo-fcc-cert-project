@@ -1,0 +1,60 @@
+{
+  "version": "0.1.0",
+  "summary": {
+    "title": "freeCodeCamp Certification Project Example",
+    "description": "> Example of a freeCodeCamp practice project"
+  },
+  "config": {
+    "testRunner": {
+      "command": "./node_modules/.bin/mocha",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "setup": {
+        "commands": [
+          "npm install"
+        ],
+        "commits": [
+          "9ac6d9f382502509657547e3c95e36aadb7ea7f9"
+        ]
+      },
+      "directory": "freeCodeCamp"
+    },
+    "repo": {
+      "uri": "https://github.com/moT01/demo-fcc-cert-project",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Subtask Example",
+      "summary": "This will be the only lesson for certification projects. There will likely be...",
+      "content": "This will be the only lesson for certification projects. There will likely be a large explanation here.\n\n\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"\n\n\"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?\"",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "There will be one task with many subtasks for a project like this",
+          "subtasks": [
+            "Create `index.html`",
+            "Add `<!DOCTYPE html>` at the top of `index.html`",
+            "Add opening and closing `html` tags",
+            "Add opening and closing `head` tags",
+            "Add opening and closing `body` tags"
+          ],
+          "setup": {
+            "commits": [
+              "370377cebc44d2ad564d4eb6bf07521ad187a1ff"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
