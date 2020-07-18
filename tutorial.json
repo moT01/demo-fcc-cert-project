@@ -15,7 +15,7 @@
           "npm install"
         ],
         "commits": [
-          "9ac6d9f382502509657547e3c95e36aadb7ea7f9"
+          "d632eef3c15054308c14bafc712d1fe498818f0e"
         ]
       },
       "directory": "freeCodeCamp"
@@ -50,7 +50,7 @@
           ],
           "setup": {
             "commits": [
-              "370377cebc44d2ad564d4eb6bf07521ad187a1ff"
+              "56f72ab346b11da05952ab7df840e19de413dcd3"
             ]
           }
         }
